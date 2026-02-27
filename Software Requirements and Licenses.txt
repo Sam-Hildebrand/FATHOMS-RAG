@@ -1,0 +1,20 @@
+# Requirement, Version, License
+matplotlib, 3.10.6, Python Software Foundation License
+numpy, 2.3.3, BSD License
+requests, 2.32.5, Apache Software License (Apache 2.0)
+python-dotenv, 1.1.1, BSD License (BSD-3-Clause) 
+google-generativeai, 0.8.5, Apache Software License (Apache 2.0) 
+anthropic, 0.68.0, MIT License (MIT)
+xai-sdk, 1.2.0, Apache Software License (Apache 2.0)
+openai, 1.108.0, Apache Software License (Apache 2.0)
+nltk, 3.9.1, Apache Software License (Apache 2.0)
+llama-index-core, 0.14.2, MIT License (MIT)
+llama-index-llms-ollama, 0.7.3, MIT License (MIT)
+llama-index-embeddings-ollama, 0.8.3, MIT License (MIT)
+llama-index-vector-stores-chroma, 0.5.3, MIT License (MIT)
+llama-index-readers-file, 0.5.4, MIT License (MIT)
+pathlib, 1.0.1, MIT License (MIT)
+scikit-learn, 1.7.2, BSD License (BSD-3-Clause)
+sentence-transformers, 5.1.0, Apache Software License (Apache 2.0) 
+docling, 2.53.0, MIT License (MIT)
+easyocr, 1.7.2, Apache Software License (Apache 2.0)

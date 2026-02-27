@@ -1,0 +1,1840 @@
+{
+  "model": "gpt-4o_openai_api",
+  "api_model": "gpt-4o",
+  "scores": {
+    "Text-Only": 0.9032258064516129,
+    "Text-Only Hallucination Rate": 0.0967741935483871,
+    "Tables": 0.7692307692307693,
+    "Tables Hallucination Rate": 0.23076923076923078,
+    "Images": 0.6428571428571429,
+    "Images Hallucination Rate": 0.35714285714285715,
+    "Multimodal": 0.7377777777777778,
+    "Multimodal Hallucination Rate": 0.28,
+    "Cross-Document Multimodal": 0.4833333333333333,
+    "Cross-Document Multimodal Hallucination Rate": 0.6
+  },
+  "responses": [
+    {
+      "category": "Text-Only",
+      "question": "What type of neural network does the HyperTransformer model generate? Do not use acronyms.",
+      "required_files": [
+        "2201.04182v3.pdf"
+      ],
+      "pred_answer": "the hypertransformer model generates a convolutional neural network.",
+      "ground_truth": [
+        [
+          "convolution"
+        ],
+        [
+          "cnn"
+        ]
+      ],
+      "correctness_score": 1.0,
+      "rag_context": [],
+      "hallucinating": false
+    },
+    {
+      "category": "Text-Only",
+      "question": "What modality other than text does Multimodal-CoT incorporate?",
+      "required_files": [
+        "2302.00923v5.pdf"
+      ],
+      "pred_answer": "multimodal-cot incorporates the vision modality, in addition to text.",
+      "ground_truth": [
+        [
+          "vision"
+        ],
+        [
+          "image"
+        ]
+      ],
+      "correctness_score": 1.0,
+      "rag_context": [],
+      "hallucinating": false
+    },
+    {
+      "category": "Text-Only",
+      "question": "Name one question and answer benchmark that the Multimodal-CoT paper mentions in its abstract.",
+      "required_files": [
+        "2302.00923v5.pdf"
+      ],
+      "pred_answer": "the multimodal-cot paper mentions the \"scienceqa\" benchmark in its abstract.",
+      "ground_truth": [
+        [
+          "scienceqa"
+        ],
+        [
+          "a okvqa"
+        ],
+        [
+          "aokvqa"
+        ]
+      ],
+      "correctness_score": 1.0,
+      "rag_context": [],
+      "hallucinating": false
+    },
+    {
+      "category": "Text-Only",
+      "question": "In the Multimodal-CoT paper, what are the two stages of the proposed framework? Answer as a comma separated list.",
+      "required_files": [
+        "2302.00923v5.pdf"
+      ],
+      "pred_answer": "rationale generation, answer inference",
+      "ground_truth": [
+        [
+          "rationale generation",
+          "answer inference"
+        ]
+      ],
+      "correctness_score": 1.0,
+      "rag_context": [],
+      "hallucinating": false
+    },
+    {
+      "category": "Text-Only",
+      "question": "Which datasets are used to evaluate HyperTransformer? Answer as a comma separated list.",
+      "required_files": [
+        "2201.04182v3.pdf"
+      ],
+      "pred_answer": "omniglot, miniimagenet, tieredimagenet",
+      "ground_truth": [
+        [
+          "omniglot, miniimagenet, tieredimagenet"
+        ],
+        [
+          "omniglot, mini imagenet, tiered imagenet"
+        ],
+        [
+          "omniglot, mini image net, tiered image net"
+        ]
+      ],
+      "correctness_score": 1.0,
+      "rag_context": [],
+      "hallucinating": false
+    },
+    {
+      "category": "Text-Only",
+      "question": "What optimization-based algorithm mentioned in the HyperTransformer paper can fine-tune the embedding by performing additional SGD updates on all parameters of the model producing it?",
+      "required_files": [
+        "2201.04182v3.pdf"
+      ],
+      "pred_answer": "the optimization-based algorithm mentioned in the hypertransformer paper that can fine-tune the embedding by performing additional sgd updates on all parameters of the model is the maml (model-agnostic meta-learning) algorithm.",
+      "ground_truth": [
+        [
+          "maml"
+        ]
+      ],
+      "correctness_score": 1.0,
+      "rag_context": [],
+      "hallucinating": false
+    },
+    {
+      "category": "Text-Only",
+      "question": "What function (and input to the function) is used to generate H_language in Multimodal_CoT? Omit reasoning steps.",
+      "required_files": [
+        "2302.00923v5.pdf"
+      ],
+      "pred_answer": "the function used to generate \\( h_{\\text{language}} \\) is \\( \\text{languageencoder}(x_{\\text{language}}) \\).",
+      "ground_truth": [
+        [
+          "languageencoder",
+          "x",
+          "language"
+        ],
+        [
+          "language encoder",
+          "x",
+          "language"
+        ],
+        [
+          "language",
+          "encoder",
+          "x"
+        ]
+      ],
+      "correctness_score": 1.0,
+      "rag_context": [],
+      "hallucinating": false
+    },
+    {
+      "category": "Text-Only",
+      "question": "What does Multimodal-CoT claim to be the main benefit of separating rationale generation from answer inference?",
+      "required_files": [
+        "2302.00923v5.pdf"
+      ],
+      "pred_answer": "multimodal-cot claims that separating rationale generation from answer inference allows the model to leverage better-generated rationales based on multimodal information. this separation helps mitigate hallucination and enhances convergence speed, leading to more accurate and effective reasoning.",
+      "ground_truth": [
+        [
+          "hallucinat"
+        ]
+      ],
+      "correctness_score": 1.0,
+      "rag_context": [],
+      "hallucinating": false
+    },
+    {
+      "category": "Text-Only",
+      "question": "NPHardEval4V says reasoning abilities increase as problem size increases. Answer \"true\" or \"false\"",
+      "required_files": [
+        "2403.01777v2.pdf"
+      ],
+      "pred_answer": "false",
+      "ground_truth": [
+        [
+          "false"
+        ]
+      ],
+      "correctness_score": 1.0,
+      "rag_context": [],
+      "hallucinating": false
+    },
+    {
+      "category": "Text-Only",
+      "question": "There is a typo in the version of The Path To Autonomous Cyber Defense that you have. What is 'cyber' misspelled as?",
+      "required_files": [
+        "2404.10788v1.pdf"
+      ],
+      "pred_answer": "the word \"cyber\" is misspelled as \"cuber\" in the document.",
+      "ground_truth": [
+        [
+          "cuber"
+        ]
+      ],
+      "correctness_score": 1.0,
+      "rag_context": [],
+      "hallucinating": false
+    },
+    {
+      "category": "Text-Only",
+      "question": "What is the Oak Ridge Center for AI Security Research abbreviated as?",
+      "required_files": [
+        "2404.10788v1.pdf"
+      ],
+      "pred_answer": "the oak ridge center for ai security research is abbreviated as caiser.",
+      "ground_truth": [
+        [
+          "caiser"
+        ]
+      ],
+      "correctness_score": 1.0,
+      "rag_context": [],
+      "hallucinating": false
+    },
+    {
+      "category": "Text-Only",
+      "question": "What does DocLLM model that traditional LLMs don't?",
+      "required_files": [
+        "2401.00908v1.pdf"
+      ],
+      "pred_answer": "docllm models both spatial layouts and text semantics, which traditional llms typically do not. it incorporates spatial layout information through bounding box coordinates of text tokens, obtained via ocr, without relying on complex image encoders. this allows docllm to effectively understand and process visually rich documents, capturing the cross-alignment between text and spatial modalities. traditional llms generally focus on text-only inputs and assume simple layouts, which may not be suitable for handling documents with complex visual structures.",
+      "ground_truth": [
+        [
+          "spatial layouts",
+          "text semantics"
+        ]
+      ],
+      "correctness_score": 1.0,
+      "rag_context": [],
+      "hallucinating": false
+    },
+    {
+      "category": "Text-Only",
+      "question": "Which pre-training objective does DocLLM use instead of standard next-token prediction?",
+      "required_files": [
+        "2401.00908v1.pdf"
+      ],
+      "pred_answer": "docllm uses an infilling pre-training objective instead of the standard next-token prediction. this approach involves predicting blocks of text given preceding and following text blocks, allowing the model to better handle irregular layouts and provide contextually relevant completions.",
+      "ground_truth": [
+        [
+          "text infilling"
+        ],
+        [
+          "block infilling"
+        ]
+      ],
+      "correctness_score": 0.0,
+      "rag_context": [],
+      "hallucinating": true
+    },
+    {
+      "category": "Text-Only",
+      "question": "What type of problems does the NPHardEval4V benchmark aim to test in MLLMs?",
+      "required_files": [
+        "2403.01777v2.pdf"
+      ],
+      "pred_answer": "the nphardeval4v benchmark aims to test the reasoning abilities of multimodal large language models (mllms) on a variety of algorithmic problems categorized into three complexity classes: polynomial time (p), np-complete, and np-hard problems. these include tasks like the graph coloring problem, traveling salesman problem, and knapsack problem, among others. the benchmark focuses on evaluating the models' pure reasoning capabilities by converting textual descriptions of these problems into visual representations.",
+      "ground_truth": [
+        [
+          "reasoning"
+        ]
+      ],
+      "correctness_score": 1.0,
+      "rag_context": [],
+      "hallucinating": false
+    },
+    {
+      "category": "Text-Only",
+      "question": "Name the two NP computational complexity classes used in NPHardEval4V.",
+      "required_files": [
+        "2403.01777v2.pdf"
+      ],
+      "pred_answer": "the two np computational complexity classes used in nphardeval4v are np-complete and np-hard.",
+      "ground_truth": [
+        [
+          "np hard",
+          "np complete"
+        ]
+      ],
+      "correctness_score": 1.0,
+      "rag_context": [],
+      "hallucinating": false
+    },
+    {
+      "category": "Text-Only",
+      "question": "What are attackers called in the strategic game modeled in the Autonomous Cyber Defense Paper?",
+      "required_files": [
+        "2404.10788v1.pdf"
+      ],
+      "pred_answer": "in the strategic game modeled in the paper, attackers are referred to as the \"red team.\"",
+      "ground_truth": [
+        [
+          "red team"
+        ]
+      ],
+      "correctness_score": 1.0,
+      "rag_context": [],
+      "hallucinating": false
+    },
+    {
+      "category": "Text-Only",
+      "question": "Who does the blue team represent in the Autonomous Cyber Defense Paper?",
+      "required_files": [
+        "2404.10788v1.pdf"
+      ],
+      "pred_answer": "in the autonomous cyber defense paper, the blue team represents the defenders in a cybersecurity context. they are responsible for protecting the network against attacks from the red team, which represents the attackers.",
+      "ground_truth": [
+        [
+          "defens"
+        ],
+        [
+          "defender"
+        ],
+        [
+          "defen"
+        ]
+      ],
+      "correctness_score": 1.0,
+      "rag_context": [],
+      "hallucinating": false
+    },
+    {
+      "category": "Text-Only",
+      "question": "What does NPHardEval4V use in place of static benchmarks?",
+      "required_files": [
+        "2403.01777v2.pdf"
+      ],
+      "pred_answer": "nphardeval4v uses a dynamic benchmark that is updated monthly. this approach is designed to prevent overfitting and ensure a more authentic and fine-grained evaluation of the reasoning abilities of multimodal large language models (mllms). the dynamic nature allows the benchmark to evolve over time, maintaining its relevance and challenge.",
+      "ground_truth": [
+        [
+          "dynamic",
+          "benchmark"
+        ]
+      ],
+      "correctness_score": 1.0,
+      "rag_context": [],
+      "hallucinating": false
+    },
+    {
+      "category": "Text-Only",
+      "question": "What is the attention mechanism in DocLLM that allows for selective focus called?",
+      "required_files": [
+        "2401.00908v1.pdf"
+      ],
+      "pred_answer": "the attention mechanism in docllm that allows for selective focus is called \"disentangled spatial attention.\" this mechanism captures cross-alignment between text and layout modalities by treating spatial information as a distinct modality and computing inter-dependencies in a disentangled manner.",
+      "ground_truth": [
+        [
+          "disentangle",
+          "spatial",
+          "attention"
+        ]
+      ],
+      "correctness_score": 1.0,
+      "rag_context": [],
+      "hallucinating": false
+    },
+    {
+      "category": "Text-Only",
+      "question": "Which open-source LLM was adapted to build DocLLM-7B?",
+      "required_files": [
+        "2401.00908v1.pdf"
+      ],
+      "pred_answer": "docllm-7b is based on the llama2-7b architecture.",
+      "ground_truth": [
+        [
+          "llama2",
+          "7b"
+        ],
+        [
+          "llama 2",
+          "7 b"
+        ],
+        [
+          "llama 2",
+          "7b"
+        ]
+      ],
+      "correctness_score": 1.0,
+      "rag_context": [],
+      "hallucinating": false
+    },
+    {
+      "category": "Text-Only",
+      "question": "What medium does the ChartMimic benchmark evaluate a model's ability to turn to code?",
+      "required_files": [
+        "2406.09961v2.pdf"
+      ],
+      "pred_answer": "the chartmimic benchmark evaluates a model's ability to turn visual charts into code.",
+      "ground_truth": [
+        [
+          "chart"
+        ]
+      ],
+      "correctness_score": 1.0,
+      "rag_context": [],
+      "hallucinating": false
+    },
+    {
+      "category": "Text-Only",
+      "question": "How many total (figure, instruction, code) triplets were annotated for ChartMimic?",
+      "required_files": [
+        "2406.09961v2.pdf"
+      ],
+      "pred_answer": "a total of 4,800 (figure, instruction, code) triplets were annotated for chartmimic.",
+      "ground_truth": [
+        [
+          "4,800"
+        ],
+        [
+          "4800"
+        ],
+        [
+          "four thousand, eight hundred"
+        ],
+        [
+          "four thousand eight hundred"
+        ]
+      ],
+      "correctness_score": 1.0,
+      "rag_context": [],
+      "hallucinating": false
+    },
+    {
+      "category": "Text-Only",
+      "question": "What are the two tasks defined in ChartMimic?",
+      "required_files": [
+        "2406.09961v2.pdf"
+      ],
+      "pred_answer": "the two tasks defined in chartmimic are:\n\n1. **direct mimic**: lmms are tasked with generating code that can reproduce a given chart, assessing their visual comprehension and reasoning capabilities.\n\n2. **customized mimic**: lmms are required to generate code for a new chart that incorporates customized data provided in the instructions while preserving the original chart\u2019s aesthetic and design, evaluating their ability to integrate visual and textual information.",
+      "ground_truth": [
+        [
+          "direct",
+          "custom"
+        ]
+      ],
+      "correctness_score": 1.0,
+      "rag_context": [],
+      "hallucinating": false
+    },
+    {
+      "category": "Text-Only",
+      "question": "Which open-weights model achieved the highest GPT-4o score on the Direct Mimic and Customized Mimic tasks?",
+      "required_files": [
+        "2406.09961v2.pdf"
+      ],
+      "pred_answer": "the open-weight model internvl2-llama3-76b achieved the highest gpt-4o score on both the direct mimic and customized mimic tasks.",
+      "ground_truth": [
+        [
+          "internvl2",
+          "llama3",
+          "76"
+        ]
+      ],
+      "correctness_score": 1.0,
+      "rag_context": [],
+      "hallucinating": false
+    },
+    {
+      "category": "Text-Only",
+      "question": "Name one of the four low-level evaluation metrics used in ChartMimic.",
+      "required_files": [
+        "2406.09961v2.pdf"
+      ],
+      "pred_answer": "one of the four low-level evaluation metrics used in chartmimic is the \"text score.\"",
+      "ground_truth": [
+        [
+          "text"
+        ],
+        [
+          "layout"
+        ],
+        [
+          "type"
+        ],
+        [
+          "color"
+        ]
+      ],
+      "correctness_score": 1.0,
+      "rag_context": [],
+      "hallucinating": false
+    },
+    {
+      "category": "Text-Only",
+      "question": "What maximum accuracy did state-of-the-art models achieve on normal ENIGMAEVAL puzzles? Answer as a single value.",
+      "required_files": [
+        "2502.08859v2.pdf"
+      ],
+      "pred_answer": "7.0%",
+      "ground_truth": [
+        [
+          "7.0%"
+        ],
+        [
+          "7%"
+        ],
+        [
+          "7.0 %"
+        ],
+        [
+          "7 %"
+        ]
+      ],
+      "correctness_score": 1.0,
+      "rag_context": [],
+      "hallucinating": false
+    },
+    {
+      "category": "Text-Only",
+      "question": "How many puzzles are in the ENIGMAEVAL normal split?",
+      "required_files": [
+        "2502.08859v2.pdf"
+      ],
+      "pred_answer": "the enigmaeval normal split comprises 949 puzzles.",
+      "ground_truth": [
+        [
+          "949"
+        ],
+        [
+          "nine hundred forty nine"
+        ]
+      ],
+      "correctness_score": 1.0,
+      "rag_context": [],
+      "hallucinating": false
+    },
+    {
+      "category": "Text-Only",
+      "question": "What does ENIGMAEVAL call a puzzle that combines answers or elements from multiple previous puzzles to reveal a final solution?",
+      "required_files": [
+        "2502.08859v2.pdf"
+      ],
+      "pred_answer": "enigmaeval refers to such a puzzle as a \"meta-puzzle.\"",
+      "ground_truth": [
+        [
+          "meta puzzle"
+        ],
+        [
+          "metapuzzle"
+        ]
+      ],
+      "correctness_score": 1.0,
+      "rag_context": [],
+      "hallucinating": false
+    },
+    {
+      "category": "Text-Only",
+      "question": "What does PCFM stand for?",
+      "required_files": [
+        "2506.04171v1.pdf"
+      ],
+      "pred_answer": "pcfm stands for physics-constrained flow matching.",
+      "ground_truth": [
+        [
+          "physics",
+          "constrained",
+          "flow",
+          "matching"
+        ]
+      ],
+      "correctness_score": 1.0,
+      "rag_context": [],
+      "hallucinating": false
+    },
+    {
+      "category": "Text-Only",
+      "question": "Which methods propose gradient-based constraint enforcement during sampling, but often require backpropagation through expensive PDE operators?",
+      "required_files": [
+        "2506.04171v1.pdf"
+      ],
+      "pred_answer": "the methods that propose gradient-based constraint enforcement during sampling and often require backpropagation through expensive pde operators are diffusionpde and d-flow.",
+      "ground_truth": [
+        [
+          "diffusionpde, d flow"
+        ],
+        [
+          "diffusion pde, d flow"
+        ],
+        [
+          "diffusionpde, dflow"
+        ],
+        [
+          "diffusion pde, dflow"
+        ],
+        [
+          "diffusionpde, d-flow"
+        ],
+        [
+          "diffusion pde, d-flow"
+        ]
+      ],
+      "correctness_score": 0.0,
+      "rag_context": [],
+      "hallucinating": true
+    },
+    {
+      "category": "Text-Only",
+      "question": "In ENIGMAEVAL, how do the authors justify excluding audio/video puzzles?",
+      "required_files": [
+        "2502.08859v2.pdf"
+      ],
+      "pred_answer": "the authors justify excluding audio/video puzzles because, at the time of writing, only a few frontier models can effectively process audio and video clues. as a result, they excluded puzzles that rely on these modalities to ensure the benchmark focuses on evaluating models' reasoning capabilities without being constrained by their current limitations in processing audio and video content.",
+      "ground_truth": [
+        [
+          "parsing limitations"
+        ],
+        [
+          "scope"
+        ]
+      ],
+      "correctness_score": 0.0,
+      "rag_context": [],
+      "hallucinating": true
+    },
+    {
+      "category": "Tables",
+      "question": "In Table 11 of the Multimodal-CoT Paper, what size of Multimodal-CoT was used?",
+      "required_files": [
+        "2302.00923v5.pdf"
+      ],
+      "pred_answer": "in table 11 of the multimodal-cot paper, the size of multimodal-cot used was 738m.",
+      "ground_truth": [
+        [
+          "738M"
+        ],
+        [
+          "738"
+        ]
+      ],
+      "correctness_score": 1.0,
+      "rag_context": [],
+      "hallucinating": false
+    },
+    {
+      "category": "Tables",
+      "question": "What template does DocLLM use for CLS Internal Classification?",
+      "required_files": [
+        "2401.00908v1.pdf"
+      ],
+      "pred_answer": "for cls internal classification, docllm uses the template:\n\n\"{document} what type of document is this?\" \n\nthis template is designed to elicit a class annotation response.",
+      "ground_truth": [
+        [
+          "{document} What type of document is this?"
+        ]
+      ],
+      "correctness_score": 1.0,
+      "rag_context": [],
+      "hallucinating": false
+    },
+    {
+      "category": "Tables",
+      "question": "In DocLLM, how many total documents were used in pre-training?",
+      "required_files": [
+        "2401.00908v1.pdf"
+      ],
+      "pred_answer": "docllm was pre-trained on a total of 5,592,245 documents.",
+      "ground_truth": [
+        [
+          "5,592,245"
+        ],
+        [
+          "5592245"
+        ],
+        [
+          "five million five hundred ninety two thousand two hundred forty five"
+        ],
+        [
+          "five million, five hundred ninety two thousand, and forty five"
+        ]
+      ],
+      "correctness_score": 1.0,
+      "rag_context": [],
+      "hallucinating": false
+    },
+    {
+      "category": "Tables",
+      "question": "In ChartMimic, what is the Testmini test-set execution rate of InternVL2-26B on the Direct Mimic task?",
+      "required_files": [
+        "2406.09961v2.pdf"
+      ],
+      "pred_answer": "the testmini test-set execution rate of internvl2-26b on the direct mimic task is 69.3.",
+      "ground_truth": [
+        [
+          "69.3"
+        ],
+        [
+          "sixty nine point three"
+        ],
+        [
+          "sixty-nine point three"
+        ]
+      ],
+      "correctness_score": 1.0,
+      "rag_context": [],
+      "hallucinating": false
+    },
+    {
+      "category": "Tables",
+      "question": "The HyperTransformer paper suggests 5-shot OMNIGLOT with 8 channels has better accuracy than 1-shot MiniImageNet with 8 channels. Answer \"true\" or \"false\"",
+      "required_files": [
+        "2201.04182v3.pdf"
+      ],
+      "pred_answer": "true",
+      "ground_truth": [
+        [
+          "true"
+        ]
+      ],
+      "correctness_score": 1.0,
+      "rag_context": [],
+      "hallucinating": false
+    },
+    {
+      "category": "Tables",
+      "question": "The HyperTransformer paper suggest 5-shot OMNIGLOT with 8 channels has better accuracy than 1-shot OMNIGLOT with 64 channels. Answer \"true\" or \"false\"",
+      "required_files": [
+        "2201.04182v3.pdf"
+      ],
+      "pred_answer": "true",
+      "ground_truth": [
+        [
+          "false"
+        ]
+      ],
+      "correctness_score": 0.0,
+      "rag_context": [],
+      "hallucinating": true
+    },
+    {
+      "category": "Tables",
+      "question": "In the PCFM paper, what is the MMSE/10^-2 for D-Flow?",
+      "required_files": [
+        "2506.04171v1.pdf"
+      ],
+      "pred_answer": "the mmse/10^-2 for d-flow is 1.97.",
+      "ground_truth": [
+        [
+          "1.97"
+        ],
+        [
+          "one point ninety seven"
+        ],
+        [
+          "one point nine seven"
+        ]
+      ],
+      "correctness_score": 1.0,
+      "rag_context": [],
+      "hallucinating": false
+    },
+    {
+      "category": "Tables",
+      "question": "In ChartMimic, which chart type has the largest average code token length?",
+      "required_files": [
+        "2406.09961v2.pdf"
+      ],
+      "pred_answer": "in chartmimic, the chart type with the largest average code token length is the \"3d density\" plot, with an average code length of 1083.9 tokens.",
+      "ground_truth": [
+        [
+          "plot in plot"
+        ],
+        [
+          "pip"
+        ]
+      ],
+      "correctness_score": 0.0,
+      "rag_context": [],
+      "hallucinating": true
+    },
+    {
+      "category": "Tables",
+      "question": "What accuracy did Multimodal-CoT get on the MMMU benchmark?",
+      "required_files": [
+        "2302.00923v5.pdf"
+      ],
+      "pred_answer": "multimodal-cot achieved an accuracy of 28.7% on the mmmu benchmark.",
+      "ground_truth": [
+        [
+          "28.7"
+        ],
+        [
+          "twenty eight point seven"
+        ],
+        [
+          "twenty-eight point seven"
+        ]
+      ],
+      "correctness_score": 1.0,
+      "rag_context": [],
+      "hallucinating": false
+    },
+    {
+      "category": "Tables",
+      "question": "In the NPHardEval4V paper, what is LLaVa's instruction following performance?",
+      "required_files": [
+        "2403.01777v2.pdf"
+      ],
+      "pred_answer": "in the nphardeval4v paper, llava's instruction-following performance is depicted in figure 6b. it shows how well llava adheres to the expected output format across different complexity levels. the specific performance details would be visible in the figure, indicating how effectively llava follows instructions in the given tasks.",
+      "ground_truth": [
+        [
+          "0.75"
+        ],
+        [
+          "zero point seven five"
+        ],
+        [
+          "zero point seventy five"
+        ]
+      ],
+      "correctness_score": 0.0,
+      "rag_context": [],
+      "hallucinating": true
+    },
+    {
+      "category": "Tables",
+      "question": "What was the highest TSP reasoning score across all complexity levels in NPHardEval4V? Answer as a single number only. Omit Reasoning Steps.",
+      "required_files": [
+        "2403.01777v2.pdf"
+      ],
+      "pred_answer": "0.40",
+      "ground_truth": [
+        [
+          "0"
+        ],
+        [
+          "zero"
+        ]
+      ],
+      "correctness_score": 1.0,
+      "rag_context": [],
+      "hallucinating": false
+    },
+    {
+      "category": "Tables",
+      "question": "How many samples were used in testing while instruct-tuning for VQA in DocLLM?",
+      "required_files": [
+        "2401.00908v1.pdf"
+      ],
+      "pred_answer": "for visual question answering (vqa) in docllm, 24,347 samples were used in testing during the instruction-tuning phase.",
+      "ground_truth": [
+        [
+          "24,347"
+        ],
+        [
+          "24347"
+        ],
+        [
+          "twenty four thousand three hundred forty seven"
+        ]
+      ],
+      "correctness_score": 1.0,
+      "rag_context": [],
+      "hallucinating": false
+    },
+    {
+      "category": "Tables",
+      "question": "What feature shape is used for ViT in the Multimodal-CoT paper?",
+      "required_files": [
+        "2302.00923v5.pdf"
+      ],
+      "pred_answer": "the feature shape used for vit in the multimodal-cot paper is (145, 1024).",
+      "ground_truth": [
+        [
+          "145",
+          "1024"
+        ]
+      ],
+      "correctness_score": 1.0,
+      "rag_context": [],
+      "hallucinating": false
+    },
+    {
+      "category": "Images",
+      "question": "In the HyperTransformer paper, what is the input to the f1 block?",
+      "required_files": [
+        "2201.04182v3.pdf"
+      ],
+      "pred_answer": "the input to the \\( f_1 \\) block in the hypertransformer model is the support samples, which are processed through the image feature extractor to produce image embeddings. these embeddings, along with activation embeddings and support sample labels, are used by the transformer to generate the weights for the first cnn layer.",
+      "ground_truth": [
+        [
+          "cnn layer 1"
+        ],
+        [
+          "convolutional neural network layer 1"
+        ]
+      ],
+      "correctness_score": 0.0,
+      "rag_context": [],
+      "hallucinating": true
+    },
+    {
+      "category": "Images",
+      "question": "In the HyperTransformer paper, what type of samples contain Class Embeddings?",
+      "required_files": [
+        "2201.04182v3.pdf"
+      ],
+      "pred_answer": "in the hypertransformer paper, class embeddings are used for labeled samples. these embeddings are concatenated with image and activation embeddings to encode input samples for the transformer model. unlabeled samples use a special \"unlabeled\" token instead of a class embedding.",
+      "ground_truth": [
+        [
+          "labeled samples"
+        ]
+      ],
+      "correctness_score": 1.0,
+      "rag_context": [],
+      "hallucinating": false
+    },
+    {
+      "category": "Images",
+      "question": "In the Multimodal-CoT paper's Figure 1, what magnetic pole is shown on the far right?",
+      "required_files": [
+        "2302.00923v5.pdf"
+      ],
+      "pred_answer": "in figure 1 of the multimodal-cot paper, the magnetic pole shown on the far right is labeled as \"n\" for north.",
+      "ground_truth": [
+        [
+          "north"
+        ]
+      ],
+      "correctness_score": 1.0,
+      "rag_context": [],
+      "hallucinating": false
+    },
+    {
+      "category": "Images",
+      "question": "In figures in the Multimodal-CoT paper, what step creates the Rationale? Please omit reasoning steps.",
+      "required_files": [
+        "2302.00923v5.pdf"
+      ],
+      "pred_answer": "in the figures from the multimodal-cot paper, the step that creates the rationale is the \"rationale generation\" stage.",
+      "ground_truth": [
+        [
+          "rationale generation"
+        ]
+      ],
+      "correctness_score": 1.0,
+      "rag_context": [],
+      "hallucinating": false
+    },
+    {
+      "category": "Images",
+      "question": "In the Multimodal-CoT paper, what is used to extract vision components?",
+      "required_files": [
+        "2302.00923v5.pdf"
+      ],
+      "pred_answer": "in the multimodal-cot paper, the vision components are extracted using a vision transformer (vit) model.",
+      "ground_truth": [
+        [
+          "vision transformer",
+          "vit"
+        ]
+      ],
+      "correctness_score": 1.0,
+      "rag_context": [],
+      "hallucinating": false
+    },
+    {
+      "category": "Images",
+      "question": "In the HyperTransformer model diagram, what do placeholder tokens represent?",
+      "required_files": [
+        "2201.04182v3.pdf"
+      ],
+      "pred_answer": "in the hypertransformer model diagram, placeholder tokens represent special learnable tokens associated with particular slices of the weight tensor to be generated. these tokens are used to assemble the output weight slices into the final weight tensors after processing by the transformer.",
+      "ground_truth": [
+        [
+          "transformed tokens",
+          "cnn weights"
+        ]
+      ],
+      "correctness_score": 0.0,
+      "rag_context": [],
+      "hallucinating": true
+    },
+    {
+      "category": "Images",
+      "question": "In Figure 2 of the Multimodal-CoT paper, The answer stays the same when the vision component is introduced. Answer \"true\" or \"false\"",
+      "required_files": [
+        "2302.00923v5.pdf"
+      ],
+      "pred_answer": "false",
+      "ground_truth": [
+        [
+          "false"
+        ]
+      ],
+      "correctness_score": 1.0,
+      "rag_context": [],
+      "hallucinating": false
+    },
+    {
+      "category": "Images",
+      "question": "In the HyperTransformer paper, what visibly distinguishes only generating logits from generating full CNN weights?",
+      "required_files": [
+        "2201.04182v3.pdf"
+      ],
+      "pred_answer": "in the hypertransformer paper, the distinction between generating only the logits layer and generating full cnn weights is primarily based on model complexity and performance:\n\n1. **logits layer generation**:\n   - the model generates only the final fully-connected logits layer.\n   - this approach is simpler and often sufficient for larger models.\n   - it provides competitive results, especially for larger cnns, by leveraging a fixed embedding.\n\n2. **full cnn weights generation**:\n   - the model generates all layers of the cnn, including intermediate convolutional layers.\n   - this approach is beneficial for smaller models, where task-specific adaptation of all layers can significantly improve performance.\n   - it allows the model to fully utilize the capacity of the hypertransformer to tailor the entire network to the specific task.\n\nthe choice between these approaches depends on the size of the cnn and the complexity of the task. generating full cnn weights is advantageous for smaller models, while generating only the logits layer is often sufficient for larger models.",
+      "ground_truth": [
+        [
+          "varied convolution patterns"
+        ]
+      ],
+      "correctness_score": 0.0,
+      "rag_context": [],
+      "hallucinating": true
+    },
+    {
+      "category": "Images",
+      "question": "What are the 4 key elements of DocLLM?",
+      "required_files": [
+        "2401.00908v1.pdf"
+      ],
+      "pred_answer": "the four key elements of docllm are:\n\n1. **input documents**: contain text tokens and their bounding boxes.\n2. **attention mechanism**: extended to capture dependencies between text semantics and spatial layouts.\n3. **infilling text blocks**: used as a pre-training objective.\n4. **task adaptation**: performed on a newly collated dataset of instructions.",
+      "ground_truth": [
+        [
+          "ocred document"
+        ],
+        [
+          "llm extension"
+        ],
+        [
+          "pre-training"
+        ],
+        [
+          "instruction tuning"
+        ]
+      ],
+      "correctness_score": 0.0,
+      "rag_context": [],
+      "hallucinating": true
+    },
+    {
+      "category": "Images",
+      "question": "What prompt template does DocLLM use for VQA extraction?",
+      "required_files": [
+        "2401.00908v1.pdf"
+      ],
+      "pred_answer": "for vqa extraction, docllm uses the prompt template: \n\n\"{document} {question}\" \n\nthe expected response is an answer annotation.",
+      "ground_truth": [
+        [
+          "{document} {question}"
+        ]
+      ],
+      "correctness_score": 1.0,
+      "rag_context": [],
+      "hallucinating": false
+    },
+    {
+      "category": "Images",
+      "question": "Referencing the Knapsack Problem figure in NPHardEval4V, what is the id of the item with weight 8? Do not include step numbers in your reasoning.",
+      "required_files": [
+        "2403.01777v2.pdf"
+      ],
+      "pred_answer": "in the knapsack problem figure from nphardeval4v, the item with weight 8 has the id of 4.",
+      "ground_truth": [
+        [
+          "4"
+        ],
+        [
+          "four"
+        ]
+      ],
+      "correctness_score": 1.0,
+      "rag_context": [],
+      "hallucinating": false
+    },
+    {
+      "category": "Images",
+      "question": "What is the Knapsack Capacity given in the example in NPHardEval4V?",
+      "required_files": [
+        "2403.01777v2.pdf"
+      ],
+      "pred_answer": "the knapsack capacity given in the example in nphardeval4v is 40.",
+      "ground_truth": [
+        [
+          "40"
+        ],
+        [
+          "forty"
+        ]
+      ],
+      "correctness_score": 1.0,
+      "rag_context": [],
+      "hallucinating": false
+    },
+    {
+      "category": "Images",
+      "question": "At approximately how many training steps does the Detector observation start to outperform the CybORG observation in the Path To Autonomous Cyber Defense paper?",
+      "required_files": [
+        "2404.10788v1.pdf"
+      ],
+      "pred_answer": "the detector observation starts to outperform the cyborg observation at approximately 20 million training steps.",
+      "ground_truth": [
+        [
+          "40m"
+        ],
+        [
+          "40 m"
+        ],
+        [
+          "forty m"
+        ],
+        [
+          "40 million"
+        ],
+        [
+          "40,000,000"
+        ],
+        [
+          "40000000"
+        ]
+      ],
+      "correctness_score": 0.0,
+      "rag_context": [],
+      "hallucinating": true
+    },
+    {
+      "category": "Images",
+      "question": "What outputs to the RL Agent in the Autonomous Cyber Defense Paper?",
+      "required_files": [
+        "2404.10788v1.pdf"
+      ],
+      "pred_answer": "in the paper, the rl agent receives outputs from the emulation environment, which consists of three main components: the action controller, observation converter, and emulator. the action controller sends actions from the rl agent to the emulator, while the observation converter transforms the state of the emulator into an observation space vector that is fed back to the rl agent. this setup allows the rl agent to interact with the environment and learn from it.",
+      "ground_truth": [
+        [
+          "observation converter"
+        ]
+      ],
+      "correctness_score": 1.0,
+      "rag_context": [],
+      "hallucinating": false
+    },
+    {
+      "category": "Multimodal",
+      "question": "What portion of Hallucinations go unresolved in the Multimodal-CoT Paper?",
+      "required_files": [
+        "2302.00923v5.pdf"
+      ],
+      "pred_answer": "according to the paper, 29.3% of hallucination mistakes go unresolved when using vision features in the multimodal-cot framework.",
+      "ground_truth": [
+        [
+          "29.3"
+        ],
+        [
+          "twenty nine point three"
+        ]
+      ],
+      "correctness_score": 1.0,
+      "rag_context": [],
+      "hallucinating": false
+    },
+    {
+      "category": "Multimodal",
+      "question": "According to the GCP example figure in NPHardEval4V, what was the reasoning score that Gemini received for the first complexity class?",
+      "required_files": [
+        "2403.01777v2.pdf"
+      ],
+      "pred_answer": "in the gcp example for the first complexity class (p), the gemini model received a reasoning score of 0.47.",
+      "ground_truth": [
+        [
+          "0.37"
+        ],
+        [
+          "zero point three seven"
+        ],
+        [
+          "zero point thirty seven"
+        ]
+      ],
+      "correctness_score": 0.0,
+      "rag_context": [],
+      "hallucinating": true
+    },
+    {
+      "category": "Multimodal",
+      "question": "In the HyperTransformer paper, performance increases as channel size increases.  Answer \"true\" or \"false\".",
+      "required_files": [
+        "2201.04182v3.pdf"
+      ],
+      "pred_answer": "true.",
+      "ground_truth": [
+        [
+          "true"
+        ]
+      ],
+      "correctness_score": 1.0,
+      "rag_context": [],
+      "hallucinating": false
+    },
+    {
+      "category": "Multimodal",
+      "question": "Approximately how many questions have only 1 image in Raw PDF Format in EnigmaEval?",
+      "required_files": [
+        "2502.08859v2.pdf"
+      ],
+      "pred_answer": "in the raw pdf format, most puzzles have only 1 image. the distribution graph on page 10 shows that the majority of puzzles fall into this category, with over 800 puzzles having a single image.",
+      "ground_truth": [
+        [
+          "800"
+        ],
+        [
+          "eight hundred"
+        ]
+      ],
+      "correctness_score": 1.0,
+      "rag_context": [],
+      "hallucinating": false
+    },
+    {
+      "category": "Multimodal",
+      "question": "Consulting the figures and text of the Multimodal-CoT paper, we would expect the number of hallucinations to increase after adding the visual modality Answer \"true\" or \"false\".",
+      "required_files": [
+        "2302.00923v5.pdf"
+      ],
+      "pred_answer": "false. the paper indicates that adding the visual modality helps reduce hallucinations. the integration of vision features contributes to generating more effective rationales, which in turn improves answer accuracy and mitigates hallucination.",
+      "ground_truth": [
+        [
+          "false"
+        ]
+      ],
+      "correctness_score": 1.0,
+      "rag_context": [],
+      "hallucinating": false
+    },
+    {
+      "category": "Multimodal",
+      "question": "The activation embeddings condition the generation of intermediate CNN layers in HyperTransformer. Answer \"true\" or \"false\"",
+      "required_files": [
+        "2201.04182v3.pdf"
+      ],
+      "pred_answer": "true",
+      "ground_truth": [
+        [
+          "true"
+        ]
+      ],
+      "correctness_score": 1.0,
+      "rag_context": [],
+      "hallucinating": false
+    },
+    {
+      "category": "Multimodal",
+      "question": "What mechanism shown in the Multimodal-CoT paper ensures that generated rationales attend to the visual input?",
+      "required_files": [
+        "2302.00923v5.pdf"
+      ],
+      "pred_answer": "the multimodal-cot paper employs a mechanism that uses a single-head attention network to ensure that generated rationales attend to the visual input. this network correlates text tokens with image patches, where the query (q) is the language representation, and the key (k) and value (v) are the vision features. this attention mechanism allows the model to integrate visual information effectively into the reasoning process.",
+      "ground_truth": [
+        [
+          "rationale generation"
+        ]
+      ],
+      "correctness_score": 0.0,
+      "rag_context": [],
+      "hallucinating": true
+    },
+    {
+      "category": "Multimodal",
+      "question": "What phenomenon depicted in the Multimodal-CoT paper and noted in the text explains the performance gap in Table 3?",
+      "required_files": [
+        "2302.00923v5.pdf"
+      ],
+      "pred_answer": "the performance gap in table 3 is explained by the phenomenon of \"hallucinated rationales.\" the study found that when the model generates rationales before answers, it often produces incorrect or misleading rationales that negatively impact answer inference. this issue is particularly prevalent when the model lacks necessary vision context, leading to a significant decrease in accuracy. by incorporating vision features, the model can generate more effective rationales, which improves answer accuracy and mitigates the hallucination problem.",
+      "ground_truth": [
+        [
+          "hallucinated rationale"
+        ]
+      ],
+      "correctness_score": 1.0,
+      "rag_context": [],
+      "hallucinating": false
+    },
+    {
+      "category": "Multimodal",
+      "question": "Which CNN model size, as shown in Figure 3 and noted in Section 5.4 of HyperTransformer, makes generating only the final logits layer perform on-par with generating all layers? Do not include step numbers in your reasoning. Only include the final answer.",
+      "required_files": [
+        "2201.04182v3.pdf"
+      ],
+      "pred_answer": "8-channel",
+      "ground_truth": [
+        [
+          "8"
+        ],
+        [
+          "eight"
+        ]
+      ],
+      "correctness_score": 1.0,
+      "rag_context": [],
+      "hallucinating": false
+    },
+    {
+      "category": "Multimodal",
+      "question": "What are the placeholders in Figure 2 of HyperTransformer replaced with?",
+      "required_files": [
+        "2201.04182v3.pdf"
+      ],
+      "pred_answer": "in figure 2 of the hypertransformer paper, the placeholders are replaced with generated weight slices. these placeholders are special learnable tokens that are used to assemble the final weight tensors after being processed by the transformer model.",
+      "ground_truth": [
+        [
+          "weight"
+        ]
+      ],
+      "correctness_score": 1.0,
+      "rag_context": [],
+      "hallucinating": false
+    },
+    {
+      "category": "Multimodal",
+      "question": "In Multimodal-CoT, what correction rate with vision features does Figure 3 report for hallucinated rationales?",
+      "required_files": [
+        "2302.00923v5.pdf"
+      ],
+      "pred_answer": "figure 3 reports a correction rate of 60.7% for hallucinated rationales when using vision features.",
+      "ground_truth": [
+        [
+          "60.7"
+        ],
+        [
+          "sixty point seven"
+        ]
+      ],
+      "correctness_score": 1.0,
+      "rag_context": [],
+      "hallucinating": false
+    },
+    {
+      "category": "Multimodal",
+      "question": "What mechanism in Multimodal-CoT handles vision-absent inputs?",
+      "required_files": [
+        "2302.00923v5.pdf"
+      ],
+      "pred_answer": "in multimodal-cot, when handling vision-absent inputs, the model uses all-zero vectors as \"blank features\" for the vision modality. this approach allows the model to ignore the vision input when it is not available, ensuring that the model can still process the language input effectively without being affected by the absence of visual information.",
+      "ground_truth": [
+        [
+          "blank features"
+        ]
+      ],
+      "correctness_score": 1.0,
+      "rag_context": [],
+      "hallucinating": false
+    },
+    {
+      "category": "Multimodal",
+      "question": "What layout-aware mechanism in DocLLM, guides token prediction?",
+      "required_files": [
+        "2401.00908v1.pdf"
+      ],
+      "pred_answer": "docllm uses a disentangled spatial attention mechanism to guide token prediction. this mechanism captures cross-modal relationships between text semantics and spatial layouts by treating spatial information as a distinct modality. it extends the self-attention mechanism of transformers to compute inter-dependencies between text and spatial modalities in a disentangled manner. this approach allows the model to effectively incorporate layout information without relying on complex vision encoders.",
+      "ground_truth": [
+        [
+          "spatially constrained decoding"
+        ]
+      ],
+      "correctness_score": 0.0,
+      "rag_context": [],
+      "hallucinating": true
+    },
+    {
+      "category": "Multimodal",
+      "question": "In NPHardEval4V, is vertex 7 directly connected to vertex 1? Answer only yes or no.",
+      "required_files": [
+        "2403.01777v2.pdf"
+      ],
+      "pred_answer": "no.",
+      "ground_truth": [
+        [
+          "no"
+        ]
+      ],
+      "correctness_score": 1.0,
+      "rag_context": [],
+      "hallucinating": false
+    },
+    {
+      "category": "Multimodal",
+      "question": "In NPHardEval4V, is vertex 2 directly connected to vertex 5? Answer only yes or no.",
+      "required_files": [
+        "2403.01777v2.pdf"
+      ],
+      "pred_answer": "yes.",
+      "ground_truth": [
+        [
+          "yes"
+        ]
+      ],
+      "correctness_score": 1.0,
+      "rag_context": [],
+      "hallucinating": false
+    },
+    {
+      "category": "Multimodal",
+      "question": "Which parameter adjustment, depicted in Autonomous Cyber Defense, changes agent performance?",
+      "required_files": [
+        "2404.10788v1.pdf"
+      ],
+      "pred_answer": "in the article \"achieving autonomous cyber defense,\" the adjustment of detection probabilities is depicted as a parameter that changes agent performance. the research highlights that the probabilities of observing different attacker behaviors need to match real-life probabilities; otherwise, the agent may fail in a real environment. this adjustment is crucial for creating an appropriate game environment for training autonomous agents.",
+      "ground_truth": [
+        [
+          "detection probability"
+        ],
+        [
+          "detection probabilities"
+        ]
+      ],
+      "correctness_score": 1.0,
+      "rag_context": [],
+      "hallucinating": false
+    },
+    {
+      "category": "Multimodal",
+      "question": "In the DocLLM, which mechanism integrates spatial layout into the transformer block?",
+      "required_files": [
+        "2401.00908v1.pdf"
+      ],
+      "pred_answer": "in docllm, the spatial layout is integrated into the transformer block using a disentangled spatial attention mechanism. this approach treats spatial information as a distinct modality and computes inter-dependencies between text and spatial modalities using separate vectors and attention scores. this allows the model to capture cross-modal relationships effectively.",
+      "ground_truth": [
+        [
+          "disentangled",
+          "spatial",
+          "attention"
+        ]
+      ],
+      "correctness_score": 1.0,
+      "rag_context": [],
+      "hallucinating": false
+    },
+    {
+      "category": "Multimodal",
+      "question": "What is the weight of the single path that is the answer to the SSP in Figure 3 of NPHardEval4V? Submit your answer as a single integer.",
+      "required_files": [
+        "2403.01777v2.pdf"
+      ],
+      "pred_answer": "the weight of the single path that is the answer to the ssp in figure 3 is 5.",
+      "ground_truth": [
+        [
+          "5"
+        ],
+        [
+          "five"
+        ]
+      ],
+      "correctness_score": 1.0,
+      "rag_context": [],
+      "hallucinating": false
+    },
+    {
+      "category": "Multimodal",
+      "question": "According to DocLLM's prompt templates and its training architecture, which task would be most sensitive to missing spatial layout?",
+      "required_files": [
+        "2401.00908v1.pdf"
+      ],
+      "pred_answer": "according to docllm's prompt templates and training architecture, the task most sensitive to missing spatial layout would likely be key information extraction (kie). this task relies heavily on the spatial arrangement of text to accurately associate keys with their corresponding values. the spatial layout helps in understanding the document's structure, which is crucial for extracting the correct information.",
+      "ground_truth": [
+        [
+          "kie"
+        ],
+        [
+          "key information extraction"
+        ]
+      ],
+      "correctness_score": 1.0,
+      "rag_context": [],
+      "hallucinating": false
+    },
+    {
+      "category": "Multimodal",
+      "question": "Which model is the best at accurately recreating color in ChartMimic?",
+      "required_files": [
+        "2406.09961v2.pdf"
+      ],
+      "pred_answer": "the best model at accurately recreating color in chartmimic is gpt-4o. it achieved the highest color score among the models evaluated.",
+      "ground_truth": [
+        [
+          "gpt 4o"
+        ],
+        [
+          "4o"
+        ]
+      ],
+      "correctness_score": 1.0,
+      "rag_context": [],
+      "hallucinating": false
+    },
+    {
+      "category": "Multimodal",
+      "question": "According to ChartMimic, what makes an HR chart unique?",
+      "required_files": [
+        "2406.09961v2.pdf"
+      ],
+      "pred_answer": "an hr (hard-to-recognize) chart is unique because it defies the standard 21 categories of charts or is challenging to identify. these charts are typically modified from common charts with distinctive features like custom visual arrangements or atypical markers.",
+      "ground_truth": [
+        [
+          "layer"
+        ]
+      ],
+      "correctness_score": 0.0,
+      "rag_context": [],
+      "hallucinating": false
+    },
+    {
+      "category": "Multimodal",
+      "question": "What optimization method is applied during PCFM sampling as shown in Algorithm 1 and Figure 4?",
+      "required_files": [
+        "2506.04171v1.pdf"
+      ],
+      "pred_answer": "during pcfm sampling, as shown in algorithm 1, a gauss\u2013newton projection is applied to align the generated sample with the constraint manifold. this involves solving a constrained optimization problem using a schur complement system to update the sample iteratively. additionally, a relaxed constraint correction is performed using a penalty method, which is optimized using gradient-based methods like the adam optimizer, as indicated in the ablation study in figure 4.",
+      "ground_truth": [
+        [
+          "gauss newton projection",
+          "newton gauss projection"
+        ]
+      ],
+      "correctness_score": 0.0,
+      "rag_context": [],
+      "hallucinating": true
+    },
+    {
+      "category": "Multimodal",
+      "question": "What are the 18 Regular chart categories in ChartMimic?",
+      "required_files": [
+        "2406.09961v2.pdf"
+      ],
+      "pred_answer": "the 18 regular chart categories in chartmimic are:\n\n1. bar\n2. heatmap\n3. scatter\n4. box\n5. errorbar\n6. errorpoint\n7. line\n8. violin\n9. radar\n10. pie\n11. density\n12. graph\n13. quiver\n14. contour\n15. histogram\n16. tree\n17. area\n18. 3d charts",
+      "ground_truth": [
+        [
+          "bar",
+          "errorbar",
+          "line",
+          "errorpoint",
+          "box",
+          "violin",
+          "hist",
+          "density",
+          "area",
+          "scatter",
+          "graph",
+          "quiver",
+          "3d",
+          "pie",
+          "radar",
+          "treemap",
+          "heatmap",
+          "contour"
+        ],
+        [
+          "bar",
+          "error bar",
+          "line",
+          "error point",
+          "box",
+          "violin",
+          "hist",
+          "density",
+          "area",
+          "scatter",
+          "graph",
+          "quiver",
+          "3d",
+          "pie",
+          "radar",
+          "tree map",
+          "heat map",
+          "contour"
+        ]
+      ],
+      "correctness_score": 0.9444444444444444,
+      "rag_context": [],
+      "hallucinating": true
+    },
+    {
+      "category": "Multimodal",
+      "question": "Does accuracy go up or down on hard ENIGMAEVAL puzzles, why?",
+      "required_files": [
+        "2502.08859v2.pdf"
+      ],
+      "pred_answer": "accuracy goes down on hard enigmaeval puzzles. state-of-the-art models achieve 0% accuracy on these puzzles. this drop is due to the increased complexity and the requirement for sophisticated reasoning, strategic thinking, and structured problem-solving approaches that current models have not yet mastered. the hard puzzles typically require multiple non-trivial steps with minimal verification, making them particularly challenging for models.",
+      "ground_truth": [
+        [
+          "down",
+          "ocr"
+        ],
+        [
+          "down",
+          "parsing"
+        ]
+      ],
+      "correctness_score": 0.5,
+      "rag_context": [],
+      "hallucinating": true
+    },
+    {
+      "category": "Multimodal",
+      "question": "In the ChartMimic paper, what is substituted in Figure 10 for CB_29?",
+      "required_files": [
+        "2406.09961v2.pdf"
+      ],
+      "pred_answer": "in figure 10 of the chartmimic paper, the example for the customized mimic task (cb_29) includes a set of data about the number of registered vehicles for different transportation modes in 2013 and 2022. the instruction guides the generation of python matplotlib code to create a chart that mirrors the style of the reference image and accurately represents the provided data.",
+      "ground_truth": [
+        [
+          "dataset"
+        ]
+      ],
+      "correctness_score": 0.0,
+      "rag_context": [],
+      "hallucinating": true
+    },
+    {
+      "category": "Cross-Document Multimodal",
+      "question": "From both papers (Multimodal-CoT and HyperTransformer), what do models experience as Transformer capacity continues to grow across model size and modality?",
+      "required_files": [
+        "2201.04182v3.pdf",
+        "2302.00923v5.pdf"
+      ],
+      "pred_answer": "in both the multimodal-cot and hypertransformer papers, the models experience several effects as transformer capacity grows across model size and modality:\n\n1. **improved performance**: larger transformer models generally lead to better performance due to increased capacity to capture complex patterns and relationships in the data. this is evident in both papers, where larger models achieve higher accuracy and better reasoning capabilities.\n\n2. **handling multimodal inputs**: in the multimodal-cot paper, increased capacity allows the model to better integrate and process multimodal inputs (e.g., language and vision), leading to more effective reasoning and reduced hallucination. the model can leverage richer representations from both modalities to generate more accurate rationales and answers.\n\n3. **decoupling complexity**: the hypertransformer paper highlights that larger transformer models can decouple the complexity of the task space from individual tasks. this allows the model to generate specialized models for specific tasks, improving performance, especially in few-shot learning scenarios.\n\n4. **mitigating hallucination**: as seen in the multimodal-cot paper, larger models help mitigate hallucination by providing more accurate and contextually relevant rationales, which improves the overall inference process.\n\n5. **convergence speed**: both papers suggest that larger models can enhance convergence speed during training, as they can more effectively learn from the data and adjust to the task requirements.\n\n6. **resource constraints**: while larger models offer performance benefits, they also require more computational resources, which can be a limitation for deployment, especially in consumer-grade hardware scenarios.\n\noverall, increasing transformer capacity enhances the model's ability to handle complex tasks, integrate multimodal data, and improve reasoning, but it also demands more resources and careful management of overfitting and generalization.",
+      "ground_truth": [
+        [
+          "diminish",
+          "return"
+        ]
+      ],
+      "correctness_score": 0.0,
+      "rag_context": [],
+      "hallucinating": true
+    },
+    {
+      "category": "Cross-Document Multimodal",
+      "question": "Which embedding design, as illustrated in Figure 1 and described in the text of both HyperTransformer and Multimodal-CoT, drives improved few-shot or reasoning performance?",
+      "required_files": [
+        "2201.04182v3.pdf",
+        "2302.00923v5.pdf"
+      ],
+      "pred_answer": "in the hypertransformer paper, the embedding design involves using image embeddings and activation embeddings to modulate the weight generation process. the image embeddings provide a global view of the sample, while activation embeddings are derived from the activations of previous layers, allowing the model to adapt to specific inputs. this design helps in generating effective cnn weights for few-shot learning by leveraging both task-specific and general information.\n\nin the multimodal-cot paper, the embedding design incorporates both language and vision inputs. the model uses a transformer-based architecture to encode language inputs and a vision transformer (vit) to extract vision features. these are then fused using a gated fusion mechanism, allowing the model to generate rationales and infer answers effectively. this multimodal embedding approach enhances reasoning performance by integrating information from both text and images, mitigating hallucination, and improving convergence.\n\nboth designs focus on integrating multiple sources of information to enhance model performance, with hypertransformer emphasizing task-specific adaptation and multimodal-cot focusing on multimodal reasoning.",
+      "ground_truth": [
+        [
+          "modal",
+          "align",
+          "token",
+          "embed"
+        ]
+      ],
+      "correctness_score": 0.5,
+      "rag_context": [],
+      "hallucinating": true
+    },
+    {
+      "category": "Cross-Document Multimodal",
+      "question": "How would inputs, like questions from the ScienceQA benchmark, be handled by the HyperTransformer architecture using its current encoding setup?",
+      "required_files": [
+        "2201.04182v3.pdf",
+        "2302.00923v5.pdf"
+      ],
+      "pred_answer": "the hypertransformer architecture is designed to generate model weights based on input samples, which can include both labeled and unlabeled data. for handling inputs like questions from the scienceqa benchmark, the process would involve the following steps:\n\n1. **input encoding**: \n   - the question, context, and options from the scienceqa benchmark would be encoded into a suitable format. this involves creating embeddings for the text inputs using a trainable convolutional neural network (cnn) to produce image embeddings and activation embeddings.\n\n2. **transformer processing**:\n   - these embeddings would be fed into the transformer model. the transformer would process these inputs to generate the weights for the cnn layers. the self-attention mechanism of the transformer would allow it to handle the sequence of tokens effectively, considering the relationships between different parts of the input.\n\n3. **weight generation**:\n   - the transformer would generate weights for the cnn layers, which are then used to process the input data. this includes generating weights for the final logits layer, which is crucial for classification tasks like those in scienceqa.\n\n4. **inference**:\n   - the generated cnn model would then be used to infer the answer to the question by processing the input through the network and predicting the most likely answer based on the encoded information.\n\n5. **two-stage framework** (if applicable):\n   - if a two-stage framework is used, the rationale generation and answer inference would be separated. the rationale would be generated first, and then used as part of the input for the final answer inference.\n\nthis setup allows the hypertransformer to adapt to the specific task of answering questions by generating task-specific model weights, leveraging both the language and any available visual information.",
+      "ground_truth": [
+        [
+          "flatten"
+        ]
+      ],
+      "correctness_score": 0.0,
+      "rag_context": [],
+      "hallucinating": true
+    },
+    {
+      "category": "Cross-Document Multimodal",
+      "question": "Which property of the self-attention mechanism, shown in Figure 2 of HyperTransformer and Figure 4 of Multimodal-CoT and described in their Method sections, underpins both CNN weight generation and rationale generation?",
+      "required_files": [
+        "2201.04182v3.pdf",
+        "2302.00923v5.pdf"
+      ],
+      "pred_answer": "the property of the self-attention mechanism that underpins both cnn weight generation in the hypertransformer and rationale generation in multimodal-cot is its ability to handle input permutations and process variable-length sequences. this property allows the models to effectively integrate and correlate information from different parts of the input, whether it's generating cnn weights based on support samples or generating rationales by integrating language and vision inputs. this flexibility is crucial for adapting to diverse and complex input structures in both tasks.",
+      "ground_truth": [
+        [
+          "invariant"
+        ],
+        [
+          "invariance"
+        ],
+        [
+          "permutation"
+        ],
+        [
+          "permute"
+        ]
+      ],
+      "correctness_score": 1.0,
+      "rag_context": [],
+      "hallucinating": false
+    },
+    {
+      "category": "Cross-Document Multimodal",
+      "question": "What shared mechanism, as illustrated in Figure 2 of HyperTransformer and Figure 4 of Multimodal-CoT and discussed in both Method sections, could unify weight and rationale generation?",
+      "required_files": [
+        "2201.04182v3.pdf",
+        "2302.00923v5.pdf"
+      ],
+      "pred_answer": "the shared mechanism illustrated in figure 2 of hypertransformer and figure 4 of multimodal-cot is the use of a transformer-based architecture to generate outputs based on input features. in hypertransformer, the transformer generates cnn weights from support samples, while in multimodal-cot, it generates rationales and answers from multimodal inputs. both methods leverage the transformer\u2019s ability to process complex input data and produce task-specific outputs, effectively unifying weight and rationale generation through a similar architectural approach.",
+      "ground_truth": [
+        [
+          "cross"
+        ],
+        [
+          "modal"
+        ],
+        [
+          "self"
+        ],
+        [
+          "attention"
+        ]
+      ],
+      "correctness_score": 1.0,
+      "rag_context": [],
+      "hallucinating": false
+    },
+    {
+      "category": "Cross-Document Multimodal",
+      "question": "What failure in representation can occur in both Multimodal-CoT and HyperTransformer particularly in unsupervised learning?",
+      "required_files": [
+        "2201.04182v3.pdf",
+        "2302.00923v5.pdf"
+      ],
+      "pred_answer": "in both multimodal-cot and hypertransformer, a common failure in representation that can occur, particularly in unsupervised learning, is the generation of hallucinated or misleading rationales. this happens when the models produce reasoning or outputs that are not grounded in the actual input data, leading to incorrect inferences or predictions. this issue arises due to the lack of proper grounding in the input features, whether they are multimodal (as in multimodal-cot) or task-specific (as in hypertransformer).",
+      "ground_truth": [
+        [
+          "drift"
+        ]
+      ],
+      "correctness_score": 0.0,
+      "rag_context": [],
+      "hallucinating": true
+    },
+    {
+      "category": "Cross-Document Multimodal",
+      "question": "Which design feature, shown in Figure 2 of HyperTransformer and Figure 4 of Multimodal-CoT and discussed in both texts, supports permutation invariance for few-shot generalization?",
+      "required_files": [
+        "2201.04182v3.pdf",
+        "2302.00923v5.pdf"
+      ],
+      "pred_answer": "the design feature that supports permutation invariance for few-shot generalization, as discussed in both the hypertransformer and multimodal-cot texts, is the use of the self-attention mechanism. in the hypertransformer text, it is mentioned that the self-attention mechanism is invariant to input permutations, making it suitable for processing unbalanced batches and batches with a variable number of samples. this feature is crucial for few-shot learning as it allows the model to handle different arrangements of input data without being affected by their order.",
+      "ground_truth": [
+        [
+          "self attention",
+          "flat",
+          "sequence"
+        ],
+        [
+          "selfattention",
+          "flat",
+          "sequence"
+        ]
+      ],
+      "correctness_score": 0.3333333333333333,
+      "rag_context": [],
+      "hallucinating": true
+    },
+    {
+      "category": "Cross-Document Multimodal",
+      "question": "What element from the Multimodal-CoT paper, used before Rational Generation in Figure 4, could be incorporated into the HyperTransformer architecture to allow it to classify datasets that contain both images and text?",
+      "required_files": [
+        "2201.04182v3.pdf",
+        "2302.00923v5.pdf"
+      ],
+      "pred_answer": "to incorporate the multimodal-cot approach into the hypertransformer architecture for classifying datasets containing both images and text, you could integrate a vision feature extraction component before the rationale generation stage. specifically, you could:\n\n1. **vision feature extraction**: use a vision model like vit (vision transformer) to extract features from images. this would involve feeding the image data into a pre-trained vision model to obtain a set of visual features.\n\n2. **fusion of multimodal features**: combine these visual features with text embeddings. this can be done using a fusion mechanism, such as gated fusion or attention-based interaction, to integrate the information from both modalities effectively.\n\n3. **transformer-based processing**: modify the hypertransformer to handle the combined multimodal input. this involves adapting the transformer to process both text and visual features, allowing it to generate task-specific weights for the cnn layers based on the combined input.\n\nby incorporating these elements, the hypertransformer could be extended to handle multimodal datasets, leveraging both text and image information for improved classification performance.",
+      "ground_truth": [
+        [
+          "vision",
+          "text",
+          "fusion"
+        ],
+        [
+          "image",
+          "language",
+          "fusion"
+        ],
+        [
+          "vision",
+          "language",
+          "fusion"
+        ],
+        [
+          "image",
+          "text",
+          "fusion"
+        ]
+      ],
+      "correctness_score": 1.0,
+      "rag_context": [],
+      "hallucinating": false
+    },
+    {
+      "category": "Cross-Document Multimodal",
+      "question": "Figure 2 of DocLLM and Figure 3 of NPHardEval4V demonstrate a different type of reasoning as opposed to structural reasoning. What type of reasoning is demonstrated?",
+      "required_files": [
+        "2401.00908v1.pdf",
+        "2403.01777v2.pdf"
+      ],
+      "pred_answer": "figure 2 of docllm and figure 3 of nphardeval4v demonstrate **visual reasoning**. this type of reasoning involves interpreting and understanding visual information, such as images or diagrams, to solve problems or make decisions. in these figures, visual representations are used to convey information that the models must process and reason about, integrating both visual and textual data to arrive at a solution.",
+      "ground_truth": [
+        [
+          "spatial"
+        ],
+        [
+          "space"
+        ],
+        [
+          "visual"
+        ]
+      ],
+      "correctness_score": 1.0,
+      "rag_context": [],
+      "hallucinating": false
+    },
+    {
+      "category": "Cross-Document Multimodal",
+      "question": "Which common objective, as shown in Figure 2 of DocLLM and mentioned in NPHardEval4V, involves predicting missing content from context?",
+      "required_files": [
+        "2401.00908v1.pdf",
+        "2403.01777v2.pdf"
+      ],
+      "pred_answer": "the common objective mentioned in both documents involves \"infilling\" or predicting missing content from context. in docllm, this is referred to as the \"infilling pre-training objective,\" where text segments are randomly masked and the model predicts the tokens in these segments. similarly, in nphardeval4v, the concept of filling in missing information is part of the reasoning tasks, although it is not explicitly labeled as \"infilling\" in the text.",
+      "ground_truth": [
+        [
+          "context infilling"
+        ]
+      ],
+      "correctness_score": 0.0,
+      "rag_context": [],
+      "hallucinating": true
+    }
+  ],
+  "overall_score": 0.7072849659301272,
+  "total_hallucination_rate": 0.312937256292095
+}

@@ -1,0 +1,507 @@
+{
+  "Text-Only": [
+    {
+      "question": "What type of neural network does the HyperTransformer model generate? Do not use acronyms.",
+      "files": ["2201.04182v3.pdf"],
+      "answers": [["convolution"],
+       ["cnn"]]
+    },
+    {
+      "question": "What modality other than text does Multimodal-CoT incorporate?",
+      "files": ["2302.00923v5.pdf"],
+      "answers": [["vision"], ["image"]]
+    },
+    {
+      "question": "Name one question and answer benchmark that the Multimodal-CoT paper mentions in its abstract.",
+      "files": ["2302.00923v5.pdf"],
+      "answers": [["scienceqa"], ["a okvqa"], ["aokvqa"]]
+    },
+    {
+      "question": "In the Multimodal-CoT paper, what are the two stages of the proposed framework? Answer as a comma separated list.",
+      "files": ["2302.00923v5.pdf"],
+      "answers": [["rationale generation", "answer inference"]]
+    },
+    {
+      "question": "Which datasets are used to evaluate HyperTransformer? Answer as a comma separated list.",
+      "files": ["2201.04182v3.pdf"],
+      "answers": [
+        ["omniglot, miniimagenet, tieredimagenet"],
+        ["omniglot, mini imagenet, tiered imagenet"],
+        ["omniglot, mini image net, tiered image net"]
+      ]
+    },
+    {
+      "question": "What optimization-based algorithm mentioned in the HyperTransformer paper can fine-tune the embedding by performing additional SGD updates on all parameters of the model producing it?",
+      "files": ["2201.04182v3.pdf"],
+      "answers": [["maml"]]
+    },
+    {
+      "question": "What function (and input to the function) is used to generate H_language in Multimodal_CoT? Omit reasoning steps.",
+      "files": ["2302.00923v5.pdf"],
+      "answers": [
+        ["languageencoder", "x", "language"],
+        ["language encoder", "x", "language"],
+        ["language", "encoder", "x"]
+      ]
+    },
+    {
+      "question": "What does Multimodal-CoT claim to be the main benefit of separating rationale generation from answer inference?",
+      "files": ["2302.00923v5.pdf"],
+      "answers": [["hallucinat"]]
+    },
+    {
+      "question": "NPHardEval4V says reasoning abilities increase as problem size increases. Answer \"true\" or \"false\"",
+      "files": ["2403.01777v2.pdf"],
+      "answers": [["false"]]
+    },
+    {
+      "question": "There is a typo in the version of The Path To Autonomous Cyber Defense that you have. What is 'cyber' misspelled as?",
+      "files": ["2404.10788v1.pdf"],
+      "answers": [["cuber"]]
+    },
+    {
+      "question": "What is the Oak Ridge Center for AI Security Research abbreviated as?",
+      "files": ["2404.10788v1.pdf"],
+      "answers": [["caiser"]]
+    },
+    {
+      "question": "What does DocLLM model that traditional LLMs don't?",
+      "files": ["2401.00908v1.pdf"],
+      "answers": [["spatial layouts", "text semantics"]]
+    },
+    {
+      "question": "Which pre-training objective does DocLLM use instead of standard next-token prediction?",
+      "files": ["2401.00908v1.pdf"],
+      "answers": [["text infilling"], ["block infilling"]]
+    },
+    {
+      "question": "What type of problems does the NPHardEval4V benchmark aim to test in MLLMs?",
+      "files": ["2403.01777v2.pdf"],
+      "answers": [["reasoning"]]
+    },
+    {
+      "question": "Name the two NP computational complexity classes used in NPHardEval4V.",
+      "files": ["2403.01777v2.pdf"],
+      "answers": [["np hard", "np complete"]]
+    },
+    {
+      "question": "What are attackers called in the strategic game modeled in the Autonomous Cyber Defense Paper?",
+      "files": ["2404.10788v1.pdf"],
+      "answers": [["red team"]]
+    },
+    {
+      "question": "Who does the blue team represent in the Autonomous Cyber Defense Paper?",
+      "files": ["2404.10788v1.pdf"],
+      "answers": [["defens"], ["defender"], ["defen"]]
+    },
+    {
+      "question": "What does NPHardEval4V use in place of static benchmarks?",
+      "files": ["2403.01777v2.pdf"],
+      "answers": [["dynamic", "benchmark"]]
+    },
+    {
+      "question": "What is the attention mechanism in DocLLM that allows for selective focus called?",
+      "files": ["2401.00908v1.pdf"],
+      "answers": [["disentangle", "spatial", "attention"]]
+    },
+    {
+      "question": "Which open-source LLM was adapted to build DocLLM-7B?",
+      "files": ["2401.00908v1.pdf"],
+      "answers": [["llama2", "7b"], ["llama 2", "7 b"], ["llama 2", "7b"]]
+    },
+    {
+      "question": "What medium does the ChartMimic benchmark evaluate a model's ability to turn to code?",
+      "files": ["2406.09961v2.pdf"],
+      "answers": [["chart"]]
+    },
+    {
+      "question": "How many total (figure, instruction, code) triplets were annotated for ChartMimic?",
+      "files": ["2406.09961v2.pdf"],
+      "answers": [["4,800"], ["4800"], 
+      ["four thousand, eight hundred"], ["four thousand eight hundred"]]
+    },
+    {
+      "question": "What are the two tasks defined in ChartMimic?",
+      "files": ["2406.09961v2.pdf"],
+      "answers": [["direct", "custom"]]
+    },
+    {
+      "question": "Which open-weights model achieved the highest GPT-4o score on the Direct Mimic and Customized Mimic tasks?",
+      "files": ["2406.09961v2.pdf"],
+      "answers": [["internvl2", "llama3", "76"]]
+    },
+    {
+      "question": "Name one of the four low-level evaluation metrics used in ChartMimic.",
+      "files": ["2406.09961v2.pdf"],
+      "answers": [["text"], ["layout"], ["type"], ["color"]]
+    },
+    {
+      "question": "What maximum accuracy did state-of-the-art models achieve on normal ENIGMAEVAL puzzles? Answer as a single value.",
+      "files": ["2502.08859v2.pdf"],
+      "answers": [["7.0%"], ["7%"], ["7.0 %"], ["7 %"]]
+    },
+    {
+      "question": "How many puzzles are in the ENIGMAEVAL normal split?",
+      "files": ["2502.08859v2.pdf"],
+      "answers": [["949"], ["nine hundred forty nine"]]
+    },
+    {
+      "question": "What does ENIGMAEVAL call a puzzle that combines answers or elements from multiple previous puzzles to reveal a final solution?",
+      "files": ["2502.08859v2.pdf"],
+      "answers": [["meta puzzle"], ["metapuzzle"]]
+    },
+    {
+      "question": "What does PCFM stand for?",
+      "files": ["2506.04171v1.pdf"],
+      "answers": [["physics", "constrained", "flow", "matching"]]
+    },
+    {
+      "question": "Which methods propose gradient-based constraint enforcement during sampling, but often require backpropagation through expensive PDE operators?",
+      "files": ["2506.04171v1.pdf"],
+      "answers": [
+        ["diffusionpde, d flow"],
+        ["diffusion pde, d flow"],
+        ["diffusionpde, dflow"],
+        ["diffusion pde, dflow"],
+        ["diffusionpde, d-flow"],
+        ["diffusion pde, d-flow"]
+      ]
+    },
+    {
+      "question": "In ENIGMAEVAL, how do the authors justify excluding audio/video puzzles?",
+      "files": ["2502.08859v2.pdf"],
+      "answers": [["parsing limitations"], ["scope"]]
+    }
+  ],
+  "Tables": [
+    {
+      "question": "In Table 11 of the Multimodal-CoT Paper, what size of Multimodal-CoT was used?",
+      "files": ["2302.00923v5.pdf"],
+      "answers": [["738M"], ["738"]]
+    },
+    {
+      "question": "What template does DocLLM use for CLS Internal Classification?",
+      "files": ["2401.00908v1.pdf"],
+      "answers": [["{document} What type of document is this?"]]
+    },
+    {
+      "question": "In DocLLM, how many total documents were used in pre-training?",
+      "files": ["2401.00908v1.pdf"],
+      "answers": [
+        ["5,592,245"],
+        ["5592245"],
+        ["five million five hundred ninety two thousand two hundred forty five"],
+        ["five million, five hundred ninety two thousand, and forty five"]
+      ]
+    },
+    {
+      "question": "In ChartMimic, what is the Testmini test-set execution rate of InternVL2-26B on the Direct Mimic task?",
+      "files": ["2406.09961v2.pdf"],
+      "answers": [["69.3"], ["sixty nine point three"], ["sixty-nine point three"]]
+    },
+    {
+      "question": "The HyperTransformer paper suggests 5-shot OMNIGLOT with 8 channels has better accuracy than 1-shot MiniImageNet with 8 channels. Answer \"true\" or \"false\"",
+      "files": ["2201.04182v3.pdf"],
+      "answers": [["true"]]
+    },
+    {
+      "question": "The HyperTransformer paper suggest 5-shot OMNIGLOT with 8 channels has better accuracy than 1-shot OMNIGLOT with 64 channels. Answer \"true\" or \"false\"",
+      "files": ["2201.04182v3.pdf"],
+      "answers": [["false"]]
+    },
+    {
+      "question": "In the PCFM paper, what is the MMSE/10^-2 for D-Flow?",
+      "files": ["2506.04171v1.pdf"],
+      "answers": [["1.97"], ["one point ninety seven"], ["one point nine seven"]]
+    },
+    {
+      "question": "In ChartMimic, which chart type has the largest average code token length?",
+      "files": ["2406.09961v2.pdf"],
+      "answers": [["plot in plot"], ["pip"]]
+    },
+    {
+      "question": "What accuracy did Multimodal-CoT get on the MMMU benchmark?",
+      "files": ["2302.00923v5.pdf"],
+      "answers": [["28.7"], ["twenty eight point seven"], ["twenty-eight point seven"]]
+    },
+    {
+      "question": "In the NPHardEval4V paper, what is LLaVa's instruction following performance?",
+      "files": ["2403.01777v2.pdf"],
+      "answers": [["0.75"], ["zero point seven five"], ["zero point seventy five"]]
+    },
+    {
+      "question": "What was the highest TSP reasoning score across all complexity levels in NPHardEval4V? Answer as a single number only. Omit Reasoning Steps.",
+      "files": ["2403.01777v2.pdf"],
+      "answers": [["0"], ["zero"]]
+    },
+    {
+      "question": "How many samples were used in testing while instruct-tuning for VQA in DocLLM?",
+      "files": ["2401.00908v1.pdf"],
+      "answers": [["24,347"], ["24347"], ["twenty four thousand three hundred forty seven"]]
+    },
+    {
+      "question": "What feature shape is used for ViT in the Multimodal-CoT paper?",
+      "files": ["2302.00923v5.pdf"],
+      "answers": [["145", "1024"]]
+    }
+  ],
+  "Images": [
+    {
+      "question": "In the HyperTransformer paper, what is the input to the f1 block?",
+      "files": ["2201.04182v3.pdf"],
+      "answers": [["cnn layer 1"], ["convolutional neural network layer 1"]]
+    },
+    {
+      "question": "In the HyperTransformer paper, what type of samples contain Class Embeddings?",
+      "files": ["2201.04182v3.pdf"],
+      "answers": [["labeled samples"]]
+    },
+    {
+      "question": "In the Multimodal-CoT paper's Figure 1, what magnetic pole is shown on the far right?",
+      "files": ["2302.00923v5.pdf"],
+      "answers": [["north"]]
+    },
+    {
+      "question": "In figures in the Multimodal-CoT paper, what step creates the Rationale? Please omit reasoning steps.",
+      "files": ["2302.00923v5.pdf"],
+      "answers": [["rationale generation"]]
+    },
+    {
+      "question": "In the Multimodal-CoT paper, what is used to extract vision components?",
+      "files": ["2302.00923v5.pdf"],
+      "answers": [["vision transformer", "vit"]]
+    },
+    {
+      "question": "In the HyperTransformer model diagram, what do placeholder tokens represent?",
+      "files": ["2201.04182v3.pdf"],
+      "answers": [["transformed tokens", "cnn weights"]]
+    },
+    {
+      "question": "In Figure 2 of the Multimodal-CoT paper, The answer stays the same when the vision component is introduced. Answer \"true\" or \"false\"",
+      "files": ["2302.00923v5.pdf"],
+      "answers": [["false"]]
+    },
+    {
+      "question": "In the HyperTransformer paper, what visibly distinguishes only generating logits from generating full CNN weights?",
+      "files": ["2201.04182v3.pdf"],
+      "answers": [["varied convolution patterns"]]
+    },
+    {
+      "question": "What are the 4 key elements of DocLLM?",
+      "files": ["2401.00908v1.pdf"],
+      "answers": [
+        ["ocred document"],
+        ["llm extension"],
+        ["pre-training"],
+        ["instruction tuning"]
+      ]
+    },
+    {
+      "question": "What prompt template does DocLLM use for VQA extraction?",
+      "files": ["2401.00908v1.pdf"],
+      "answers": [["{document} {question}"]]
+    },
+    {
+      "question": "Referencing the Knapsack Problem figure in NPHardEval4V, what is the id of the item with weight 8? Do not include step numbers in your reasoning.",
+      "files": ["2403.01777v2.pdf"],
+      "answers": [["4"], ["four"]]
+    },
+    {
+      "question": "What is the Knapsack Capacity given in the example in NPHardEval4V?",
+      "files": ["2403.01777v2.pdf"],
+      "answers": [["40"], ["forty"]]
+    },
+    {
+      "question": "At approximately how many training steps does the Detector observation start to outperform the CybORG observation in the Path To Autonomous Cyber Defense paper?",
+      "files": ["2404.10788v1.pdf"],
+      "answers": [["40m"], ["40 m"], ["forty m"], ["40 million"], ["40,000,000"], ["40000000"]]
+    },
+    {
+      "question": "What outputs to the RL Agent in the Autonomous Cyber Defense Paper?",
+      "files": ["2404.10788v1.pdf"],
+      "answers": [["observation converter"]]
+    }
+  ],
+  "Multimodal": [
+    {
+      "question": "What portion of Hallucinations go unresolved in the Multimodal-CoT Paper?",
+      "files": ["2302.00923v5.pdf"],
+      "answers": [["29.3"], ["twenty nine point three"]]
+    },
+    {
+      "question": "According to the GCP example figure in NPHardEval4V, what was the reasoning score that Gemini received for the first complexity class?",
+      "files": ["2403.01777v2.pdf"],
+      "answers": [["0.37"], ["zero point three seven"], ["zero point thirty seven"]]
+    },
+    {
+      "question": "In the HyperTransformer paper, performance increases as channel size increases.  Answer \"true\" or \"false\".",
+      "files": ["2201.04182v3.pdf"],
+      "answers": [["true"]]
+    },
+    {
+      "question": "Approximately how many questions have only 1 image in Raw PDF Format in EnigmaEval?",
+      "files": ["2502.08859v2.pdf"],
+      "answers": [["800"], ["eight hundred"]]
+    },
+    {
+      "question": "Consulting the figures and text of the Multimodal-CoT paper, we would expect the number of hallucinations to increase after adding the visual modality Answer \"true\" or \"false\".",
+      "files": ["2302.00923v5.pdf"],
+      "answers": [["false"]]
+    },
+    {
+      "question": "The activation embeddings condition the generation of intermediate CNN layers in HyperTransformer. Answer \"true\" or \"false\"",
+      "files": ["2201.04182v3.pdf"],
+      "answers": [["true"]]
+    },
+    {
+      "question": "What mechanism shown in the Multimodal-CoT paper ensures that generated rationales attend to the visual input?",
+      "files": ["2302.00923v5.pdf"],
+      "answers": [["rationale generation"]]
+    },
+    {
+      "question": "What phenomenon depicted in the Multimodal-CoT paper and noted in the text explains the performance gap in Table 3?",
+      "files": ["2302.00923v5.pdf"],
+      "answers": [["hallucinated rationale"]]
+    },
+    {
+      "question": "Which CNN model size, as shown in Figure 3 and noted in Section 5.4 of HyperTransformer, makes generating only the final logits layer perform on-par with generating all layers? Do not include step numbers in your reasoning. Only include the final answer.",
+      "files": ["2201.04182v3.pdf"],
+      "answers": [["8"], ["eight"]]
+    },
+    {
+      "question": "What are the placeholders in Figure 2 of HyperTransformer replaced with?",
+      "files": ["2201.04182v3.pdf"],
+      "answers": [["weight"]]
+    },
+    {
+      "question": "In Multimodal-CoT, what correction rate with vision features does Figure 3 report for hallucinated rationales?",
+      "files": ["2302.00923v5.pdf"],
+      "answers": [["60.7"], ["sixty point seven"]]
+    },
+    {
+      "question": "What mechanism in Multimodal-CoT handles vision-absent inputs?",
+      "files": ["2302.00923v5.pdf"],
+      "answers": [["blank features"]]
+    },
+    {
+      "question": "What layout-aware mechanism in DocLLM, guides token prediction?",
+      "files": ["2401.00908v1.pdf"],
+      "answers": [["spatially constrained decoding"]]
+    },
+    {
+      "question": "In NPHardEval4V, is vertex 7 directly connected to vertex 1? Answer only yes or no.",
+      "files": ["2403.01777v2.pdf"],
+      "answers": [["no"]]
+    },
+        {
+      "question": "In NPHardEval4V, is vertex 2 directly connected to vertex 5? Answer only yes or no.",
+      "files": ["2403.01777v2.pdf"],
+      "answers": [["yes"]]
+    },
+    {
+      "question": "Which parameter adjustment, depicted in Autonomous Cyber Defense, changes agent performance?",
+      "files": ["2404.10788v1.pdf"],
+      "answers": [["detection probability"], ["detection probabilities"]]
+    },
+    {
+      "question": "In the DocLLM, which mechanism integrates spatial layout into the transformer block?",
+      "files": ["2401.00908v1.pdf"],
+      "answers": [["disentangled", "spatial", "attention"]]
+    },
+    {
+      "question": "What is the weight of the single path that is the answer to the SSP in Figure 3 of NPHardEval4V? Submit your answer as a single integer.",
+      "files": ["2403.01777v2.pdf"],
+      "answers": [["5"], ["five"]]
+    },
+    {
+      "question": "According to DocLLM's prompt templates and its training architecture, which task would be most sensitive to missing spatial layout?",
+      "files": ["2401.00908v1.pdf"],
+      "answers": [["kie"], ["key information extraction"]]
+    },
+    {
+      "question": "Which model is the best at accurately recreating color in ChartMimic?",
+      "files": ["2406.09961v2.pdf"],
+      "answers": [["gpt 4o"], ["4o"]]
+    },
+    {
+      "question": "According to ChartMimic, what makes an HR chart unique?",
+      "files": ["2406.09961v2.pdf"],
+      "answers": [["layer"]]
+    },
+    {
+      "question": "What optimization method is applied during PCFM sampling as shown in Algorithm 1 and Figure 4?",
+      "files": ["2506.04171v1.pdf"],
+      "answers": [["gauss newton projection", "newton gauss projection"]]
+    },
+    {
+      "question": "What are the 18 Regular chart categories in ChartMimic?",
+      "files": ["2406.09961v2.pdf"],
+      "answers": [
+        ["bar", "errorbar", "line", "errorpoint", "box", "violin", "hist", "density", "area", "scatter", "graph", "quiver", "3d", "pie", "radar", "treemap", "heatmap", "contour"],
+        ["bar", "error bar", "line", "error point", "box", "violin", "hist", "density", "area", "scatter", "graph", "quiver", "3d", "pie", "radar", "tree map", "heat map", "contour"]
+      ]
+    },
+    {
+      "question": "Does accuracy go up or down on hard ENIGMAEVAL puzzles, why?",
+      "files": ["2502.08859v2.pdf"],
+      "answers": [["down", "ocr"], ["down", "parsing"]]
+    },
+    {
+      "question": "In the ChartMimic paper, what is substituted in Figure 10 for CB_29?",
+      "files": ["2406.09961v2.pdf"],
+      "answers": [["dataset"]]
+    }
+  ],
+  "Cross-Document Multimodal": [
+    {
+      "question": "From both papers (Multimodal-CoT and HyperTransformer), what do models experience as Transformer capacity continues to grow across model size and modality?",
+      "files": ["2201.04182v3.pdf", "2302.00923v5.pdf"],
+      "answers": [["diminish", "return"]]
+    },
+    {
+      "question": "Which embedding design, as illustrated in Figure 1 and described in the text of both HyperTransformer and Multimodal-CoT, drives improved few-shot or reasoning performance?",
+      "files": ["2201.04182v3.pdf", "2302.00923v5.pdf"],
+      "answers": [["modal", "align", "token", "embed"]]
+    },
+    {
+      "question": "How would inputs, like questions from the ScienceQA benchmark, be handled by the HyperTransformer architecture using its current encoding setup?",
+      "files": ["2201.04182v3.pdf", "2302.00923v5.pdf"],
+      "answers": [["flatten"]]
+    },
+    {
+      "question": "Which property of the self-attention mechanism, shown in Figure 2 of HyperTransformer and Figure 4 of Multimodal-CoT and described in their Method sections, underpins both CNN weight generation and rationale generation?",
+      "files": ["2201.04182v3.pdf", "2302.00923v5.pdf"],
+      "answers": [["invariant"], ["invariance"], ["permutation"], ["permute"]]
+    },
+    {
+      "question": "What shared mechanism, as illustrated in Figure 2 of HyperTransformer and Figure 4 of Multimodal-CoT and discussed in both Method sections, could unify weight and rationale generation?",
+      "files": ["2201.04182v3.pdf", "2302.00923v5.pdf"],
+      "answers": [["cross"], ["modal"], ["self"], ["attention"]]
+    },
+    {
+      "question": "What failure in representation can occur in both Multimodal-CoT and HyperTransformer particularly in unsupervised learning?",
+      "files": ["2201.04182v3.pdf", "2302.00923v5.pdf"],
+      "answers": [["drift"]]
+    },
+    {
+      "question": "Which design feature, shown in Figure 2 of HyperTransformer and Figure 4 of Multimodal-CoT and discussed in both texts, supports permutation invariance for few-shot generalization?",
+      "files": ["2201.04182v3.pdf", "2302.00923v5.pdf"],
+      "answers": [["self attention", "flat", "sequence"], ["selfattention", "flat", "sequence"]]
+    },
+    {
+      "question": "What element from the Multimodal-CoT paper, used before Rational Generation in Figure 4, could be incorporated into the HyperTransformer architecture to allow it to classify datasets that contain both images and text?",
+      "files": ["2201.04182v3.pdf", "2302.00923v5.pdf"],
+      "answers": [["vision", "text", "fusion"], ["image", "language", "fusion"], ["vision", "language", "fusion"], ["image", "text", "fusion"]]
+    },
+    {
+      "question": "Figure 2 of DocLLM and Figure 3 of NPHardEval4V demonstrate a different type of reasoning as opposed to structural reasoning. What type of reasoning is demonstrated?",
+      "files": ["2401.00908v1.pdf", "2403.01777v2.pdf"],
+      "answers": [["spatial"], ["space"], ["visual"]]
+    },
+    {
+      "question": "Which common objective, as shown in Figure 2 of DocLLM and mentioned in NPHardEval4V, involves predicting missing content from context?",
+      "files": ["2401.00908v1.pdf", "2403.01777v2.pdf"],
+      "answers": [["context infilling"]]
+    }
+  ]
+}
