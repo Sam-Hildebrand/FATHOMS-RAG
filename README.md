@@ -70,4 +70,119 @@ Thish is in-progress work and the current dataset is very small. While this allo
 
 - `data/` — Question and answer definitions  
 - `evaluation/` — Scoring and hallucination detection code  
-- `Results/` — Model outputs and aggregated metrics  
+- `Results/` — Model outputs and aggregated metrics
+
+## Attribution for Papers Queried About
+
+The following papers were used in the construction of the preliminary dataset. All papers below are CC-BY (Attribution 4.0) Licensed.
+
+```
+@misc{zhmoginov2022hypertransformermodelgenerationsupervised,
+      title={HyperTransformer: Model Generation for Supervised and Semi-Supervised Few-Shot Learning}, 
+      author={Andrey Zhmoginov and Mark Sandler and Max Vladymyrov},
+      year={2022},
+      eprint={2201.04182},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2201.04182}, 
+}
+```
+
+```
+@misc{zhang2024multimodalchainofthoughtreasoninglanguage,
+      title={Multimodal Chain-of-Thought Reasoning in Language Models}, 
+      author={Zhuosheng Zhang and Aston Zhang and Mu Li and Hai Zhao and George Karypis and Alex Smola},
+      year={2024},
+      eprint={2302.00923},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2302.00923}, 
+}
+```
+
+```
+@misc{wang2023docllmlayoutawaregenerativelanguage,
+      title={DocLLM: A layout-aware generative language model for multimodal document understanding}, 
+      author={Dongsheng Wang and Natraj Raman and Mathieu Sibue and Zhiqiang Ma and Petr Babkin and Simerjot Kaur and Yulong Pei and Armineh Nourbakhsh and Xiaomo Liu},
+      year={2023},
+      eprint={2401.00908},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2401.00908}, 
+}
+```
+
+```
+@misc{li2025nphardeval4vdynamicevaluationlarge,
+      title={NPHardEval4V: Dynamic Evaluation of Large Vision-Language Models with Effects of Vision}, 
+      author={Xiang Li and Wenyue Hua and Kaijie Zhu and Lingyao Li and Haoyang Ling and Jinkui Chi and Qi Dou and Jindong Wang and Yongfeng Zhang and Xin Ma and Lizhou Fan},
+      year={2025},
+      eprint={2403.01777},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2403.01777}, 
+}
+```
+
+```
+@misc{oesch2024pathautonomouscyberdefense,
+      title={The Path To Autonomous Cyber Defense}, 
+      author={Sean Oesch and Phillipe Austria and Amul Chaulagain and Brian Weber and Cory Watson and Matthew Dixson and Amir Sadovnik},
+      year={2024},
+      eprint={2404.10788},
+      archivePrefix={arXiv},
+      primaryClass={cs.CR},
+      url={https://arxiv.org/abs/2404.10788}, 
+}
+```
+
+```
+@misc{yang2025chartmimicevaluatinglmmscrossmodal,
+      title={ChartMimic: Evaluating LMM's Cross-Modal Reasoning Capability via Chart-to-Code Generation}, 
+      author={Cheng Yang and Chufan Shi and Yaxin Liu and Bo Shui and Junjie Wang and Mohan Jing and Linran Xu and Xinyu Zhu and Siheng Li and Yuxiang Zhang and Gongye Liu and Xiaomei Nie and Deng Cai and Yujiu Yang},
+      year={2025},
+      eprint={2406.09961},
+      archivePrefix={arXiv},
+      primaryClass={cs.SE},
+      url={https://arxiv.org/abs/2406.09961}, 
+}
+```
+
+```
+@misc{wang2025enigmaevalbenchmarklongmultimodal,
+      title={EnigmaEval: A Benchmark of Long Multimodal Reasoning Challenges}, 
+      author={Clinton J. Wang and Dean Lee and Cristina Menghini and Johannes Mols and Jack Doughty and Adam Khoja and Jayson Lynch and Sean Hendryx and Summer Yue and Dan Hendrycks},
+      year={2025},
+      eprint={2502.08859},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2502.08859}, 
+}
+```
+
+```
+@misc{utkarsh2025physicsconstrainedflowmatchingsampling,
+      title={Physics-Constrained Flow Matching: Sampling Generative Models with Hard Constraints}, 
+      author={Utkarsh Utkarsh and Pengfei Cai and Alan Edelman and Rafael Gomez-Bombarelli and Christopher Vincent Rackauckas},
+      year={2025},
+      eprint={2506.04171},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2506.04171}, 
+}
+```
+
+# Cite
+
+Please use the following BibTex citation when referencing this work:
+```
+@misc{hildebrand2025fathomsragframeworkassessmentthinking,
+      title={FATHOMS-RAG: A Framework for the Assessment of Thinking and Observation in Multimodal Systems that use Retrieval Augmented Generation}, 
+      author={Samuel Hildebrand and Curtis Taylor and Sean Oesch and James M Ghawaly Jr and Amir Sadovnik and Ryan Shivers and Brandon Schreiber and Kevin Kurian},
+      year={2025},
+      eprint={2510.08945},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2510.08945}, 
+}
+```
